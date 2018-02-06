@@ -11,9 +11,9 @@ const ButtonSection = styled.div`
 function Section() {
   return (
     <ButtonSection>
-      <Button>
-        <a href="https://blog.vannizer.com/">CHECKOUT BLOG</a>
-      </Button>
+      <a href="https://blog.vannizer.com/">
+        <Button>CHECKOUT BLOG</Button>
+      </a>
     </ButtonSection>
   )
 }

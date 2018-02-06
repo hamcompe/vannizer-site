@@ -4,7 +4,7 @@ import colors from '../colors'
 export default injectGlobal`
 body {
   margin: 0;
-  font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   color: ${colors.text};
 }
 a {

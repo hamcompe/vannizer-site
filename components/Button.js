@@ -3,7 +3,7 @@ import { darken, lighten, rgba } from 'polished'
 import colors from '../colors'
 
 const Button = styled.button`
-  font-family: Roboto;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
   padding: 13px 35px;
   font-size: 1em;
