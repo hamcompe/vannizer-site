@@ -16,7 +16,10 @@ export default class MyDocument extends Document {
         <Head>
           <title>Vannizer</title>
           {this.props.styleTags}
-          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+            rel="stylesheet"
+          />
           <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" />
         </Head>
         <body>

@@ -7,7 +7,7 @@ const Container = styled.div`
 `
 const Headline = styled.div`
   font-size: 2.5em;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
   position: relative;
   margin-bottom: 1.2em;
@@ -25,6 +25,7 @@ const Headline = styled.div`
 `
 const Body = styled.div`
   font-size: 1em;
+  line-height: 1.6;
   font-weight: 300;
   margin-bottom: 1.4em;
   color: ${colors.text};
@@ -63,10 +64,7 @@ function AboutMe() {
         great interface. Passion in Functional Programming and Clean Code.
       </Body>
       <Body>
-        I also{' '}
-        <Link href="https://blog.vannizer.com">
-          blog my development experience.
-        </Link>
+        I also <Link href="https://blog.vannizer.com">blog my development experience.</Link>
       </Body>
     </Container>
   )
