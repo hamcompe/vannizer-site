@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && next export -o docs",
+    "deploy": "next build && next export -o docs && git checkout docs/CNAME && git checkout docs/.nojekyll && git add docs && git commit -m ':rocket: Launch site' && git push origin $(git_current_branch)",
     "start": "next start"
   },
   "dependencies": {
