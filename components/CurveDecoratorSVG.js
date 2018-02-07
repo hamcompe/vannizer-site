@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <svg width="100%" height="auto" viewBox="0 0 1440 569">
+    <svg width="100%" height="100%" viewBox="0 0 1440 569">
       <defs>
         <linearGradient
           x1="-2.48949813e-15%"
