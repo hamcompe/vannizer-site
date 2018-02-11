@@ -8,7 +8,6 @@
     "start": "next start",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && next export -o docs && git checkout docs/CNAME && git checkout docs/.nojekyll && git add docs && git commit -m ':rocket: Launch site' && git push origin $(git_current_branch)",
     "format": "prettier-eslint --no-config --no-semi --single-quote --write \"**/*.js\"",
     "precommit": "lint-staged"
   },
