@@ -48,6 +48,9 @@ const Link = styled.a`
     color: ${colors.black};
   }
 `
+const Emoji = styled.span`
+  font-weight: 500;
+`
 
 function AboutMe() {
   return (
@@ -56,15 +59,15 @@ function AboutMe() {
         <Headline>Vannizer</Headline>
       </HeadlineWrapper>
       <Body>Hi Folk!</Body>
+      <Body>I am a web developer passion to deliver happiness to people through websites.</Body>
       <Body>
-        I am a web developer passion to bring great experience to people through websites.
+        I love to build something fun and matter with great UI. A great product comes with joy and
+        happiness, and it’s meaningless if not presented well.
       </Body>
       <Body>
-        I am a software engineer who fall in love with web development. Love to build fun stuff with
-        great interface. Passion in Functional Programming and Clean Code.
-      </Body>
-      <Body>
-        I also <Link href="https://blog.vannizer.com">blog my development experience.</Link>
+        I interested in Functional Programming and Clean Code. Also{' '}
+        <Link href="https://blog.vannizer.com">blog my development experience</Link> sometimes.
+        <Emoji>¯\_(ツ)_/¯</Emoji>
       </Body>
     </Container>
   )
