@@ -13,7 +13,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier-eslint \"**/*.js\"",
+      "npm run format",
       "git add"
     ]
   },
@@ -27,15 +27,15 @@
     "styled-components": "^3.1.6"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.9.0",
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-hamcompe": "^1.0.5",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react": "^7.7.0",
     "husky": "^0.14.3",
-    "lint-staged": "^6.1.0",
-    "prettier-eslint-cli": "^4.7.0"
+    "lint-staged": "^7.0.0",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
