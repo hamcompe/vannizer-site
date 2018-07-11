@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { rgba } from 'polished'
+import ALink from '../../components/ALink'
 import colors from '../../colors'
 
 const Container = styled.div`
@@ -26,7 +26,6 @@ const Headline = styled.div`
 const Body = styled.div`
   font-size: 1em;
   line-height: 1.6;
-  font-weight: 300;
   margin-bottom: 1.4em;
   color: ${colors.text};
 `
@@ -34,18 +33,6 @@ const HeadlineWrapper = styled.div`
   @media (max-width: 414px) {
     display: flex;
     justify-content: center;
-  }
-`
-const Link = styled.a`
-  border-bottom: 1px solid ${colors.primary};
-  transition: all 0.3s ease;
-  outline: 1rem solid ${rgba(colors.gray, 0)};
-
-  :hover {
-    background: ${rgba(colors.gray, 0.2)};
-    outline: 3px solid ${rgba(colors.gray, 0.2)};
-    border-width: 3px;
-    color: ${colors.black};
   }
 `
 const Emoji = styled.span`
@@ -66,7 +53,7 @@ function AboutMe() {
       </Body>
       <Body>
         I interested in Functional Programming and Clean Code. Also{' '}
-        <Link href="https://blog.vannizer.com">blog my development experience</Link> sometimes.
+        <ALink href="https://blog.vannizer.com">blog my development experience</ALink> sometimes.
         <Emoji>¯\_(ツ)_/¯</Emoji>
       </Body>
     </Container>

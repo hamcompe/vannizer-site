@@ -1,7 +1,6 @@
 {
   "extends": "hamcompe",
-  "env": {
-    "browser": true,
-    "jest": true
+  "rules": {
+    "react/jsx-one-expression-per-line": 0
   }
 }

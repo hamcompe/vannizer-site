@@ -28,7 +28,7 @@ const Button = styled.button`
     transform: translate(0px, 0px);
   }
   &:disabled {
-    background-color: ${colors.gray};
+    background-color: ${colors.grey};
     box-shadow: none;
     cursor: not-allowed;
     transform: translate(0px);
