@@ -8,7 +8,10 @@ import HobbiesSection from '../organisms/Index/HobbiesSection'
 import TalksSection from '../organisms/Index/TalksSection'
 import breakpoints from '../breakpoints'
 
-const IntroSection = styled.section`
+const IntroSection = styled.main`
+  max-width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 96px;
   margin-bottom: 8.75em;
   @media (max-width: ${breakpoints.m}) {
@@ -19,7 +22,7 @@ const IntroSection = styled.section`
   }
 `
 
-const Container = styled.div`
+const ResponsiveWrapper = styled.div`
   font-size: 18px;
   padding: 0 96px;
   @media (max-width: ${breakpoints.m}) {
@@ -34,7 +37,7 @@ const Container = styled.div`
 function Page() {
   return (
     <IndexLayout>
-      <Container>
+      <ResponsiveWrapper>
         <IntroSection>
           <AboutMe />
           <SocialGroup />
@@ -42,7 +45,7 @@ function Page() {
         </IntroSection>
         <HobbiesSection />
         <TalksSection />
-      </Container>
+      </ResponsiveWrapper>
     </IndexLayout>
   )
 }
